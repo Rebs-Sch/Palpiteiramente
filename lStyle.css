@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Cascadia+Mono:ital,wght@0,200..700;1,200..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+*{
+    box-sizing: border-box;
+    text-decoration: none;
+
+    margin: 0;
+    padding: 0;
+
+    font-family: "Roboto", sans-serif;
+}
+
+body{
+    background-color: #000F08;
+}
+
+header{
+    background-color: #1C3738;
+    color: #F4FFF8;
+
+    padding: 20px;
+    margin-bottom: 20px;
+
+    text-align: center;
+}
+
+h1{
+    margin-bottom: 5px;
+
+    font-weight: 800;
+}
+
+h2{
+    font-weight: 500;
+}
+
+.cartaos{
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+p{
+    color: #F4FFF8;
+}
+
+.botao{
+    display: block;
+
+    background-color: #1C3738;
+    color: #F4FFF8;
+
+    padding: 10px;
+    margin-top: 15px;
+    border-radius: 5px;
+
+    text-align: center;
+    font-weight: 600;
+}
+
+.cartao{
+    background-color: #8BAAAD;
+
+    width: 250px;
+    height: 450px;
+
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.cartao img{
+    border: #1C3738 2px solid;
+    border-radius: 5px;
+
+    width: 220px;
+    height: 220px;
+}
+
+h3{
+    color: #1C3738;
+    font-size: 20px;
+
+    margin: 10px 0;
+}
