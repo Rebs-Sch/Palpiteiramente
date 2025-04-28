@@ -3,9 +3,9 @@
 require_once("modelo/Palpite.php");
 
 $palpites = array(
-    "1" => new Palpite("sources/Jinhsi.png", "Jinshi", "Spectro", "espada", "ataque", "atacante"),
-    "2" => new Palpite("sources/Roccia.png", "Roccia", "Havoc", "manopla", "ataque", "suporte"),
-    "3" => new Palpite("sources/Lingyang.png", "Lingyang", "Glacio", "manopla", "ataque", "atacante"),
-    "4" => new Palpite("sources/Shorekeeper.png", "Shorekeeper", "Spectro", "catalisador", "cura", "suporte"),
-    "5" => new Palpite("sources/Baizhi.png", "Baizhi", "Glacio", "catalisador", "cura", "curandeira")
+    new Palpite(1, "sources/Jinhsi.png", "Jinshi", "Spectro", "espada", "ataque", "atacante"),
+    new Palpite(2, "sources/Roccia.png", "Roccia", "Havoc", "manopla", "ataque", "suporte"),
+    new Palpite(3, "sources/Lingyang.png", "Lingyang", "Glacio", "manopla", "ataque", "atacante"),
+    new Palpite(4, "sources/Shorekeeper.png", "Shorekeeper", "Spectro", "catalisador", "cura", "suporte"),
+    new Palpite(5, "sources/Baizhi.png", "Baizhi", "Glacio", "catalisador", "cura", "curandeira")
 );
