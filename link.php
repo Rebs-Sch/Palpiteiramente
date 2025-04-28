@@ -13,21 +13,19 @@ echo"<header>
 
 echo "<main class='cartaos'>";
 
-foreach ($palpites as $i => $pa) {
-    desenhaLinha($pa, $i);
+foreach ($palpites as $p) {
+    desenhaLinha($p);
 }
 
 echo "</main>";
 
-function desenhaLinha($palpite, $id) {
+function desenhaLinha($p) {
     echo"
         <div class='cartao'>
-                <img src='".$palpite->getImg()."'>
-                <h3>".$palpite->getNome()."</h3>
-                <p>".$palpite."</p>
-                <a class='botao' href='http://localhost/trabalho-lpw2/trabalho/execucao.php?palpite='".$id."'><i class='bi bi-ticket-detailed'></i> Apostar</a>
+                <img src='".$p->getImg()."'>
+                <h3>".$p->getNome()."</h3>
+                <p>".$p."</p>
+                <a class='botao' href='http://localhost/trabalho-lpw2/trabalho/execucao.php?palpite='".$p->getId()."'><i class='bi bi-ticket-detailed'></i> Apostar</a>
         </div>";
     
 }
-
-
