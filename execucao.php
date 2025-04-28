@@ -10,10 +10,6 @@ $certo = rand(1,5);
 $palpite = $_GET['palpite'];
 
 if ($palpite == $palpiteCorreto) {
-    /*echo "<h1>Correto!!!!</h1>"; 
-    echo "<img src='" . $palpites[$palpite - 1]->getImg(). "'>";
-    echo "<a href='http://localhost/trabalho-lpw2/link.php'> ➜ Sinta-se a vontade para jogar mais vezes!</a>";*/
-
     echo "
         <header>
             <h1>Jogo Palpiteiro</h1>
@@ -36,11 +32,6 @@ if ($palpite == $palpiteCorreto) {
         ";
 
 } else {
-    /*echo "<h1>Errado..</h1>";
-    echo "<a href='http://localhost/trabalho-lpw2/link.php'> ➜ Tente novamente!! Na próxima você consegue. </a>";
-    echo "<h5>Shh!! Nao conta pra ninguem que eu te ajudei!!</h5> ";
-    echo "<p>dica: A habilidade do pokémon correto é " . $palpites[$palpite - 1]->getHabilidade() . " 🥰 </p>";*/
-
     echo "
     <header>
         <h1>Jogo Palpiteiro</h1>
