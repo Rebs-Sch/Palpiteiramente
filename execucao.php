@@ -20,8 +20,8 @@ if ($palpite == $certo) {
         <h3>O personagem sorteado era:</h3>
         
         <div class='personagem'>
-            <img src='".$palpites[$palpite-1]->getImg()."'>
-            <h4>".$palpites[$palpite-1]->getNome()."</h4>
+            <img src='".$palpites[$certo-1]->getImg()."'>
+            <h4>".$palpites[$certo-1]->getNome()."</h4>
         </div>
         
         <p>Ótima escolha!</p>
