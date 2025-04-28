@@ -9,7 +9,7 @@ echo "<link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/bootstrap-icons@
 $certo = rand(1,5);
 $palpite = $_GET['palpite'];
 
-if ($palpite == $palpiteCorreto) {
+if ($palpite == $certo) {
     echo "
         <header>
             <h1>Jogo Palpiteiro</h1>
