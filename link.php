@@ -25,7 +25,7 @@ function desenhaLinha($palpite, $id) {
                 <img src='".$palpite->getImg()."'>
                 <h3>".$palpite->getNome()."</h3>
                 <p>".$palpite."</p>
-                <a class='botao' href='http://localhost/aula_lpw/trabalho/execucao.php?palpite='".$id."'><i class='bi bi-ticket-detailed'></i> Apostar</a>
+                <a class='botao' href='http://localhost/trabalho-lpw2/trabalho/execucao.php?palpite='".$id."'><i class='bi bi-ticket-detailed'></i> Apostar</a>
         </div>";
     
 }
